@@ -12,5 +12,6 @@ public class MedicineResponse {
   private Long id;
   private String name;
   private BigDecimal price;
+  private Integer stock;
   private String expirationDate;
 }
