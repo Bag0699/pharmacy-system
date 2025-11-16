@@ -13,5 +13,6 @@ public class SaleDetailResponse {
     private MedicineResponse medicine;
     private Integer quantity;
     private BigDecimal unitPrice;
+    private BigDecimal subTotal;
     private BigDecimal totalAmount;
 }

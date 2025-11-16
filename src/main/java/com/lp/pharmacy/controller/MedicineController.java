@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/medicines")
 public class MedicineController {
 
-  private static final String VIEW_FOLDER = "redirect:/medicine";
+  private static final String VIEW_FOLDER = "redirect:/medicines";
   private final MedicineService medicineService;
 
   // Lista todos los medicamentos
